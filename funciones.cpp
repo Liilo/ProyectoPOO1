@@ -17,7 +17,7 @@ void inicializar_sintomas(){
     Sintoma agotamiento_extremo(0);
     Sintoma congestion(0);
     Sintoma tos(0);
-    Sintoma espesor_mucosidad(0);
+    Sintoma mucosidad_espesa(0);
     Sintoma fiebre(0);
     Sintoma fatiga(0);
     Sintoma dolor_muscular(0);
