@@ -28,12 +28,16 @@ class Enfermedad{
 };
 
 
-class Persona{
+class Paciente{
     private:
         string nombre;
+        float altura;
         int edad;
         int masa;
         char genero;
+        int presion_sanguinea;
+        int pulso;
+    
     public:
         void setNombre(string nombre);
         string getNombre();
@@ -43,7 +47,14 @@ class Persona{
         int getMasa();
         void setGenero(char genero);
         char getGenero();
-};
+        void setAltura(float altura);
+        float getAltura();
+        void setPresion_Sanguinea(int presion_sanguinea);
+        int getPresion_Sanguinea();//rango normal presion:
+                                   //120/80 mmHg
+        float setPulso(int pulso);
+        int getPulso(); //rango normal del pulso:
+                        //niños=70/110; adultos 70/100
 
 
 void inicializar_enfermedades();
