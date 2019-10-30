@@ -14,6 +14,6 @@ Nomenclature used in the code is Camel.
 
 The developers of this program are:
 
-* Micaela Lily López
+* Lily Micaela López
 * Eduardo Sebastián Castro Quispe
 * María Andrea Gonzales
